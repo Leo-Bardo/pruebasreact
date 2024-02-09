@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  border: solid 1px;
+
 }
 
 .App-logo {
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.appCalc{
+  margin-top: 80px;
+
 }
