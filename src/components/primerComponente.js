@@ -4,8 +4,11 @@ import React from 'react'
 
 export const segundoComponente = () => {
   return (
-    <div>segundoComponente</div>
-  )
+    <div>
+      <div>segundoComponente</div>    // Se envuelven dos elementos dentro de un solo elemento
+      <div>segundoComponente</div>
+    </div>
+    )
 }
 
 const primerComponente = () => {
